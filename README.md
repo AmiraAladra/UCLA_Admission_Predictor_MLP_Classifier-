@@ -4,8 +4,8 @@ This project uses a Multi-layer Perceptron (MLP) neural network classifier to pr
 
 The app offers an intuitive interface where users can enter their profile, receive a prediction, view model diagnostics, and explore visual insights about the admission dataset.
 
-👉 Live App: (host link here if deployed)
-🔗 Demo Video: (optional)
+👉 Live App: 
+[🔗 Demo Video: (optional)](https://ucla-admission-predictor-mlp-classifier.streamlit.app/)
 
 ## 🚀 Features
 Interactive Prediction: Users enter GRE, TOEFL, CGPA, SOP, LOR, and research experience to get instant predictions.
