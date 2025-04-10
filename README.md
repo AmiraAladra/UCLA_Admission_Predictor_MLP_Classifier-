@@ -1,4 +1,4 @@
-🎓 UCLA Admission Predictor (MLP Classifier)
+# 🎓 UCLA Admission Predictor (MLP Classifier)
 Project Overview
 This project uses a Multi-layer Perceptron (MLP) neural network classifier to predict a student's admission chance to UCLA based on academic and personal profile attributes like GRE, TOEFL, GPA, SOP/LOR strength, and research experience.
 
@@ -7,7 +7,7 @@ The app offers an intuitive interface where users can enter their profile, recei
 👉 Live App: (host link here if deployed)
 🔗 Demo Video: (optional)
 
-🚀 Features
+## 🚀 Features
 Interactive Prediction: Users enter GRE, TOEFL, CGPA, SOP, LOR, and research experience to get instant predictions.
 
 Loss Curve Visualization: See the training loss curve of the MLP model for transparency.
@@ -18,7 +18,7 @@ Error Handling: Gracefully handles missing models or figures with user-friendly 
 
 Modular Codebase: Structured into src/ modules for easy maintenance and reusability.
 
-📦 Dataset
+## 📦 Dataset
 The dataset used for training is Admission.csv, containing the following features:
 
 Column Name	Description
@@ -34,7 +34,7 @@ Admit_Chance	Chance of admission (1 if ≥ 0.8, otherwise 0)
 🛠 Technologies Used
 Python 3.x
 
-📚 Libraries:
+## 📚 Libraries:
 pandas, numpy: Data handling and preprocessing
 
 scikit-learn: Model training and evaluation
@@ -47,7 +47,7 @@ pickle: Model saving/loading
 
 logging: Runtime tracking and error handling
 
-🔍 Code Explanation
+## 🔍 Code Explanation
 load_and_clean_data(path): Loads the raw CSV, drops unnecessary columns, and binarizes the target.
 
 Create_dummy_variables(df): Encodes categorical variables and splits data into features and target.
@@ -64,7 +64,7 @@ plot_cgpa_histogram_by_admission(df): Saves a CGPA histogram colored by admissio
 
 plot_pairplot(df): Saves a pairplot of GRE, TOEFL, and CGPA.
 
-🌐 Streamlit App Features
+## 🌐 Streamlit App Features
 Sidebar Form Inputs:
 
 GRE Score
@@ -89,7 +89,7 @@ Displays model’s training loss curve
 
 Shows saved graphs for dataset insights
 
-📁 Project Structure
+## 📁 Project Structure
 
     ├── app.py                        # Streamlit web app
     ├── models/
@@ -116,7 +116,7 @@ Shows saved graphs for dataset insights
     │       └── visualize.py
     ├── requirements.txt
     └── README.md
-🖥 Installation (For Local Deployment)
+##🖥 Installation (For Local Deployment)
 1. Clone the Repository
 
   git clone https://github.com/yourusername/ucla-admission-predictor.git
@@ -134,7 +134,7 @@ Generate plots in reports/figures/
 
   streamlit run app.py
   
-📈 Output Files
+##📈 Output Files
   models/MLP.pkl: Trained MLP model
   
   reports/figures/gre_vs_toefl.png: GRE vs TOEFL Scatter
@@ -143,6 +143,6 @@ Generate plots in reports/figures/
   
   reports/figures/pairplot.png: Pairplot of main features
 
-🙌 Thank You!
+##🙌 Thank You!
 Thanks for checking out the UCLA Admission Predictor!
 Feel free to ⭐ the repo, contribute, raise issues, or share feedback.
